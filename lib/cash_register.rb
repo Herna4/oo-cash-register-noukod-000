@@ -1,4 +1,4 @@
-class CashRegister :total, :add_item,
+class CashRegister :total, :add_item, :apply_discount, 
   
   def initialize(age = 0)
     @age = age 
