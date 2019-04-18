@@ -1,7 +1,9 @@
 class CashRegister :discount, :item, :last_transaction, :total
   
   def initialize(discount = 0)
-    @age = age 
+    @items = []
+    @discount = discount
+    @total = 0  
   end 
   
 end
